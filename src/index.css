@@ -30,3 +30,8 @@ body {
   padding: 0;
   border: 0;
 }
+
+/* new styles */
+a { 
+  color: inherit; 
+}

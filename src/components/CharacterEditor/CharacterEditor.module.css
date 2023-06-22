@@ -3,11 +3,9 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
   padding-bottom: 64px;
+  width: 65%; /* new style */
 }
 
 .title {
@@ -23,8 +21,28 @@
   margin: 0;
 }
 
+/* new styles */
 .characterWrapper {
+  position: fixed;
+  left: 60%;
+  top: 15%;
+  bottom: 10%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
+
+.maxWidthWrapper {
+  position: relative;
+}
+
+.gradientBox {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
